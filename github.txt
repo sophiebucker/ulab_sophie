@@ -1,0 +1,24 @@
+
+1. Realpath allows you to find your absolute path.
+2. The command "ls" allows you to see all the files within ~/music/. You'd see patterns.txt and symmetry.py in there.
+3. The command “nano patterns.txt” allows me to open the file and edit it.
+4. The command “cat patterns.txt” allows me to print the contents of the file without opening it.
+5. The command “diff” shows me the difference.
+6. The command git mv patterns.txt ~/math/calculus/
+7. “git rm ~/math/geometry/triangle.txt”
+8. “cd ../math/calculus/patterns.txt”
+9. “git init”
+10. It would look something like “git clone ssh://sbbucker@berkeley.edu/math.git”.
+11. I don’t know. 
+12. “git status” shows me the status of my working directory. I don’t think GitHub is tracking symmetry.txt yet because I haven’t added, committed, and pushed the changes to my remote repository.
+13. “git add symmetry.txt”; “git add .” adds all changes to the staging area.
+14. Yes, git is tracking symmetry.txt it. A command you could use to unstage is “git reset HEAD symmetry.txt”.
+15. “git commit -m “created a repo named math, copied symmetry.txt into math, and staged it”
+16. “git push origin math”. I believe we are pushing to geometry because symmetry as a concept should fall under the category of geometry, and so I’d push it there.
+17. “git branch applied_math”
+18. “git checkout applied_math”
+19. I would do “git add .” then “git commit -m “made a directory named physics, then created a file inside it named mechanics.txt”” then “git push origin applied_math” If I switched to a different branch before pushing, I would not have them saved.
+20. “git branch” will show all the branches in my repo. The branch currently highlighted should be applied_math, because I’m in it.
+21. “git checkout -” will take me to my previous branch.
+22. Using the command “git merge applied_math” in the branch I’m in right now would merge the two branches.
+
